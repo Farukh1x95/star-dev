@@ -5,12 +5,19 @@ Author: Jasdev Singh (Jazzy) (jazzy@starclinch.com)
 Template: themify-shoppe
 */
 
-/* write custom css below */
-
+/* write sahil css below */
+.themify_builder .widget-121959-0-0-1.module-widget {
+    margin-bottom: 145px !important;
+}
+#content{
+	padding:0px !important;
+}
 /* hide youtube gallery and other non working shizz in product lightbox view */
 /* #post-lightbox-wrap .product_meta .entry-title:nth-child(1) {
 	display: none!important;
 } */
+
+
 
 
 /* wedding tag page css */
@@ -1061,7 +1068,23 @@ Template: themify-shoppe
 
 /*media queries (By: Anisha)*/
 
+.categorytext{
+	text-shadow:0px 0px #ffffff!important;
+}
 
+.pyr{
+	margin-top:-150px!important;
+}
+
+h3.product_title{
+	font-weight:bold!important;
+}
+.mtalkz{
+	margin-top:50px!important;
+}
+.topcategories{
+	margin-top:5px!important;
+}
 .woocommerce .product_title{
 	font-family:unset!important;
 	font-size:1.3em!important;
@@ -1101,7 +1124,14 @@ h3.product_title{
 .woocommerce .products .star-rating{
 	margin:13px 0 .5em!important;
 }
-
+/*.features{
+    width: 41.6%!important;
+    margin-bottom: 100px!important;
+    margin-right: 12px!important;
+}*/
+/*.featuresection{
+	margin-top:10px!important;
+}*/
 /*#footer-logo{
 	margin-bottom:80px!important;
 }*/
@@ -1116,7 +1146,7 @@ h3.product_title{
 }
 
 .belowheader{
-		margin-top:-60px!important;
+		margin-top:-65px!important;
 	}
 
 /*h3.product_title{
@@ -1141,8 +1171,31 @@ h3.product_title{
 	
 }*/
 
+.topcategories{
+	margin-top:-35px!important;
+}
+
+.icontext{
+	margin-top:50px!important;
+}
 
 @media only screen and (max-width:1440px){
+	
+	#main-nav {
+    padding:10px 4px!important;
+  }
+	#main-nav a{
+   
+    padding:5px!important;
+   }
+	
+	
+	/*======artist header menu==========*/
+	ul#icon-menu.menu-name-icon-menu li:first-child {
+   	 display: none!important;
+	}
+	
+	
 	#pagewrap{
 		/*padding-top:75px!important;*/
 	}
@@ -1242,10 +1295,33 @@ h3.product_title{
 		font-size:25px!important;
 	}
 }
+/*======artist header menu=========*/
+@media only screen and (min-width:320px) and (max-width:1149px){
+	ul#main-nav.menu-name-mega-menu li:last-child {
+    display: none;
+	}
+	
+}
+
+@media only screen and (min-width:900px) and (max-width:1149px){
+ul#icon-menu.menu-name-icon-menu li:first-child {
+   	 display: inline-block!important;
+}
+}
+
+@media only screen and (min-width:1349px) and (max-width:1400px){
+ul#icon-menu.menu-name-icon-menu li:first-child {
+   	 display: none!important;
+}
+}
+
+
 
 @media only screen and (max-width:1024px){
 	
-	
+	.homepagevideo{
+		margin-bottom:100px!important;
+	}
 	#searchform{
 		margin-top:-10px!important;
 		margin-left:45px!important;
@@ -1260,7 +1336,13 @@ h3.product_title{
 		margin-top:-30px!important;
 	}
 	
+	/*.features{
+		width:45%!important;
+	}
 	
+	.homepagevideo{
+		margin-bottom:200px!important;
+	}*/
 	.woocommerce ul.products li.product a{
 		margin:auto!important;
 	}
@@ -1319,6 +1401,7 @@ h3.product_title{
 	}
 	
 	
+	
 }
 
 @media only screen and (max-width:768px)
@@ -1333,7 +1416,9 @@ h3.product_title{
 	h1.mainhead{
 		font-size:35px!important;
 	}
-	
+	.homepagevideo{
+		margin-bottom:70px!important;
+	}
 	#searchform{
 		margin-top:30px!important;
 		font-size:20px!important;
@@ -1459,7 +1544,7 @@ h3.product_title{
 	.bottomicons{
 		/*margin-top:-100px!important;*/
 	}
-	.bottomicons >.carousel-wrap >.caroufredsel_wrapper >ul >li{
+	/*.bottomicons >.carousel-wrap >.caroufredsel_wrapper >ul >li{
 		width:150px!important;
 	}
 	
@@ -1471,12 +1556,15 @@ h3.product_title{
 		height:125px!important;
 		padding:0px 10px!important;
 			
-	}
+	}*/
 	
 }
 
 @media only screen and (max-width:425px)
 {
+	.homepagevideo{
+		margin-top:30px!important;
+	}
 	#pagewrap{
 		padding-top:68px!important;
 	}
@@ -1552,7 +1640,7 @@ h3.product_title{
 	.woocommerce ul.products li.product .add_to_cart_button {
     text-align: center!important;
     line-height: 20px!important;
-	font-size:8.5px!important;
+	font-size: 15px!important; /*Farukh*/
 }
 	
 	h1.explore{
@@ -1630,19 +1718,19 @@ h3.product_title{
       margin-top:-50px!important;
 	}
 	
-	.bottomicons >.carousel-wrap >.caroufredsel_wrapper >ul >li{
+	/*.bottomicons >.carousel-wrap >.caroufredsel_wrapper >ul >li{
 		width:150px!important;
 	}
 	
 	.bottomicons >.carousel-wrap >.caroufredsel_wrapper >ul >li >div{
 		width:150px!important;
-	}
+	}*/
 	
-	.bottomicons >.carousel-wrap >.caroufredsel_wrapper >ul> li >div >div >img{
+	/*.bottomicons >.carousel-wrap >.caroufredsel_wrapper >ul> li >div >div >img{
 		height:125px!important;
 		padding:0px 10px!important;
 			
-	}
+	}*/
 	
 	.homepagevideo{
 		margin:auto!important;
@@ -1680,6 +1768,9 @@ h3.product_title{
 		margin:auto!important;
 	}
 	
+	.features{
+		margin:auto!important;
+	}
 	.ctaheading{
 		font-size:16px!important;
 	}
@@ -1708,9 +1799,9 @@ h3.product_title{
         padding-bottom:12%!important;
     }  
 	
-	.bottomicons{
+	/*.bottomicons{
 		margin-top:50px!important;
-	}
+	}*/
 	
 }
 
@@ -1732,12 +1823,7 @@ h3.product_title{
 .headtext1{
 	color:yellow!important;
 }
-@media screen and (max-width:480px) {
-	.woocommerce .related ul.products .product, .woocommerce.woocommerce-page .related ul.products .product{
-		width: 100%;
-	}
-}
----------------------------------------------------------
+
 /*farukh CSS For Mobile*/
 @media screen and (max-width:425px) {
 	.woocommerce .related ul.products .product, .woocommerce.woocommerce-page .related ul.products .product{
@@ -1781,55 +1867,3 @@ h3.product_title{
 .woocommerce.woocommerce-page .related ul.products .product {
 	text-align: center
 }
-	.product-content-inner-wrapper .woocommerce .wc-products .product .add_to_cart_button, .woocommerce ul.products li.product .add_to_cart_button, .woocommerce #content input.button, .woocommerce #respond input#submit, .woocommerce #content input.button.alt, .woocommerce #respond input#submit.alt, .woocommerce a.button, .woocommerce button.button, .woocommerce input.button, .woocommerce a.button.alt, .woocommerce button.button.alt, .woocommerce input.button.alt, .woocommerce-page #content input.button, .woocommerce-page #respond input#submit, .woocommerce-page #content input.button.alt, .woocommerce-page #respond input#submit.alt, .woocommerce-page a.button, .woocommerce-page button.button, .woocommerce-page input.button, .woocommerce-page a.button.alt, .woocommerce-page button.button.alt, .woocommerce-page input.button.alt, .woocommerce-page input.button.alt, .woocommerce span.onsale:before, .woocommerce-page span.onsale:before, .wishlist-button.wishlisted, .woocommerce ul.products li.product a.wishlisted  { 	
-		width:100%;
-		font-size: 20px !important;
-}
-	/*farukh CSS For Mobile*/
-@media screen and (max-width:425px) {
-	.woocommerce .related ul.products .product, .woocommerce.woocommerce-page .related ul.products .product{
-		width: 100%;
-		text-align: center;
-	}
-	.product-content-inner-wrapper .woocommerce .wc-products .product .add_to_cart_button, .woocommerce ul.products li.product .add_to_cart_button, .woocommerce #content input.button, .woocommerce #respond input#submit, .woocommerce #content input.button.alt, .woocommerce #respond input#submit.alt, .woocommerce a.button, .woocommerce button.button, .woocommerce input.button, .woocommerce a.button.alt, .woocommerce button.button.alt, .woocommerce input.button.alt, .woocommerce-page #content input.button, .woocommerce-page #respond input#submit, .woocommerce-page #content input.button.alt, .woocommerce-page #respond input#submit.alt, .woocommerce-page a.button, .woocommerce-page button.button, .woocommerce-page input.button, .woocommerce-page a.button.alt, .woocommerce-page button.button.alt, .woocommerce-page input.button.alt, .woocommerce-page input.button.alt, .woocommerce span.onsale:before, .woocommerce-page span.onsale:before, .wishlist-button.wishlisted, .woocommerce ul.products li.product a.wishlisted  { 	
-		width:100%;
-		font-size: 20px !important;
-}
- .product-content-inner .product-description {
-    overflow: hidden;
-   text-overflow: ellipsis;
-   display: -webkit-box;
-   line-height: 20px;     /* fallback */
-   max-height: 60px;      /* fallback */
-   -webkit-line-clamp: 3; /* number of lines to show */
-   -webkit-box-orient: vertical;
-  margin-bottom: 15px;
-}
-	.woocommerce ul.products li.product a img {
-		
-		
-	}
-}
-/*farukh CSS For Mobile*/
-/*farukh CSS For Tablets*/
-
-/*farukh CSS For Tablets*/
-
-.product-content .product-content-inner-wrapper .product-content-inner .product-description > p {
-	overflow: hidden;
-   text-overflow: ellipsis;
-   display: -webkit-box;
-   line-height: 20px;     /* fallback */
-   max-height: 60px;      /* fallback */
-   -webkit-line-clamp: 3; /* number of lines to show */
-   -webkit-box-orient: vertical;
-  margin-bottom: 15px;
-}
-.woocommerce.woocommerce-page .related ul.products .product {
-	text-align: center
-}
-	.product-content-inner-wrapper .woocommerce .wc-products .product .add_to_cart_button, .woocommerce ul.products li.product .add_to_cart_button, .woocommerce #content input.button, .woocommerce #respond input#submit, .woocommerce #content input.button.alt, .woocommerce #respond input#submit.alt, .woocommerce a.button, .woocommerce button.button, .woocommerce input.button, .woocommerce a.button.alt, .woocommerce button.button.alt, .woocommerce input.button.alt, .woocommerce-page #content input.button, .woocommerce-page #respond input#submit, .woocommerce-page #content input.button.alt, .woocommerce-page #respond input#submit.alt, .woocommerce-page a.button, .woocommerce-page button.button, .woocommerce-page input.button, .woocommerce-page a.button.alt, .woocommerce-page button.button.alt, .woocommerce-page input.button.alt, .woocommerce-page input.button.alt, .woocommerce span.onsale:before, .woocommerce-page span.onsale:before, .wishlist-button.wishlisted, .woocommerce ul.products li.product a.wishlisted  { 	
-		width:100%;
-		font-size: 20px !important;
-}
-	
