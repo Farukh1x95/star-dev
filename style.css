@@ -1785,4 +1785,51 @@ h3.product_title{
 		width:100%;
 		font-size: 20px !important;
 }
+	/*farukh CSS For Mobile*/
+@media screen and (max-width:425px) {
+	.woocommerce .related ul.products .product, .woocommerce.woocommerce-page .related ul.products .product{
+		width: 100%;
+		text-align: center;
+	}
+	.product-content-inner-wrapper .woocommerce .wc-products .product .add_to_cart_button, .woocommerce ul.products li.product .add_to_cart_button, .woocommerce #content input.button, .woocommerce #respond input#submit, .woocommerce #content input.button.alt, .woocommerce #respond input#submit.alt, .woocommerce a.button, .woocommerce button.button, .woocommerce input.button, .woocommerce a.button.alt, .woocommerce button.button.alt, .woocommerce input.button.alt, .woocommerce-page #content input.button, .woocommerce-page #respond input#submit, .woocommerce-page #content input.button.alt, .woocommerce-page #respond input#submit.alt, .woocommerce-page a.button, .woocommerce-page button.button, .woocommerce-page input.button, .woocommerce-page a.button.alt, .woocommerce-page button.button.alt, .woocommerce-page input.button.alt, .woocommerce-page input.button.alt, .woocommerce span.onsale:before, .woocommerce-page span.onsale:before, .wishlist-button.wishlisted, .woocommerce ul.products li.product a.wishlisted  { 	
+		width:100%;
+		font-size: 20px !important;
+}
+ .product-content-inner .product-description {
+    overflow: hidden;
+   text-overflow: ellipsis;
+   display: -webkit-box;
+   line-height: 20px;     /* fallback */
+   max-height: 60px;      /* fallback */
+   -webkit-line-clamp: 3; /* number of lines to show */
+   -webkit-box-orient: vertical;
+  margin-bottom: 15px;
+}
+	.woocommerce ul.products li.product a img {
+		
+		
+	}
+}
+/*farukh CSS For Mobile*/
+/*farukh CSS For Tablets*/
+
+/*farukh CSS For Tablets*/
+
+.product-content .product-content-inner-wrapper .product-content-inner .product-description > p {
+	overflow: hidden;
+   text-overflow: ellipsis;
+   display: -webkit-box;
+   line-height: 20px;     /* fallback */
+   max-height: 60px;      /* fallback */
+   -webkit-line-clamp: 3; /* number of lines to show */
+   -webkit-box-orient: vertical;
+  margin-bottom: 15px;
+}
+.woocommerce.woocommerce-page .related ul.products .product {
+	text-align: center
+}
+	.product-content-inner-wrapper .woocommerce .wc-products .product .add_to_cart_button, .woocommerce ul.products li.product .add_to_cart_button, .woocommerce #content input.button, .woocommerce #respond input#submit, .woocommerce #content input.button.alt, .woocommerce #respond input#submit.alt, .woocommerce a.button, .woocommerce button.button, .woocommerce input.button, .woocommerce a.button.alt, .woocommerce button.button.alt, .woocommerce input.button.alt, .woocommerce-page #content input.button, .woocommerce-page #respond input#submit, .woocommerce-page #content input.button.alt, .woocommerce-page #respond input#submit.alt, .woocommerce-page a.button, .woocommerce-page button.button, .woocommerce-page input.button, .woocommerce-page a.button.alt, .woocommerce-page button.button.alt, .woocommerce-page input.button.alt, .woocommerce-page input.button.alt, .woocommerce span.onsale:before, .woocommerce-page span.onsale:before, .wishlist-button.wishlisted, .woocommerce ul.products li.product a.wishlisted  { 	
+		width:100%;
+		font-size: 20px !important;
+}
 	
