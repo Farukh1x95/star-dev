@@ -1833,6 +1833,7 @@ h3.product_title{
 	.product-content-inner-wrapper .woocommerce .wc-products .product .add_to_cart_button, .woocommerce ul.products li.product .add_to_cart_button, .woocommerce #content input.button, .woocommerce #respond input#submit, .woocommerce #content input.button.alt, .woocommerce #respond input#submit.alt, .woocommerce a.button, .woocommerce button.button, .woocommerce input.button, .woocommerce a.button.alt, .woocommerce button.button.alt, .woocommerce input.button.alt, .woocommerce-page #content input.button, .woocommerce-page #respond input#submit, .woocommerce-page #content input.button.alt, .woocommerce-page #respond input#submit.alt, .woocommerce-page a.button, .woocommerce-page button.button, .woocommerce-page input.button, .woocommerce-page a.button.alt, .woocommerce-page button.button.alt, .woocommerce-page input.button.alt, .woocommerce-page input.button.alt, .woocommerce span.onsale:before, .woocommerce-page span.onsale:before, .wishlist-button.wishlisted, .woocommerce ul.products li.product a.wishlisted  { 	
 		width:100%;
 		font-size: 20px !important;
+		padding-left: 0px;
 }
  .product-content-inner .product-description {
     overflow: hidden;
@@ -1844,15 +1845,35 @@ h3.product_title{
    -webkit-box-orient: vertical;
   margin-bottom: 15px;
 }
-	.woocommerce ul.products li.product a img {
-		
-		
+	.woocommerce ul.products li.product .product-image {
+		margin: 10%;
+		margin-bottom:10px;
+	}
+
+	.woocommerce ul.products li.product h3 {
+		font-size:21px;
 	}
 }
 /*farukh CSS For Mobile*/
 /*farukh CSS For Tablets*/
+@media screen and (max-width:768px) {
+	.product-content-inner-wrapper .woocommerce .wc-products .product .add_to_cart_button, .woocommerce ul.products li.product .add_to_cart_button, .woocommerce #content input.button, .woocommerce #respond input#submit, .woocommerce #content input.button.alt, .woocommerce #respond input#submit.alt, .woocommerce a.button, .woocommerce button.button, .woocommerce input.button, .woocommerce a.button.alt, .woocommerce button.button.alt, .woocommerce input.button.alt, .woocommerce-page #content input.button, .woocommerce-page #respond input#submit, .woocommerce-page #content input.button.alt, .woocommerce-page #respond input#submit.alt, .woocommerce-page a.button, .woocommerce-page button.button, .woocommerce-page input.button, .woocommerce-page a.button.alt, .woocommerce-page button.button.alt, .woocommerce-page input.button.alt, .woocommerce-page input.button.alt, .woocommerce span.onsale:before, .woocommerce-page span.onsale:before, .wishlist-button.wishlisted, .woocommerce ul.products li.product a.wishlisted  { 	
+		width:100%;
+		font-size: 20px !important;
+		padding-left: 0px; 
+		
+}
+	.woocommerce ul.products li.product .product-image {
+		margin: 10%;
+		margin-bottom:10px;
+	}
 
+	.woocommerce ul.products li.product h3 {
+		font-size: 21px;
+	}
+}
 /*farukh CSS For Tablets*/
+/*Farukh CSS For Desktop*/
 
 .product-content .product-content-inner-wrapper .product-content-inner .product-description > p {
 	overflow: hidden;
@@ -1865,5 +1886,6 @@ h3.product_title{
   margin-bottom: 15px;
 }
 .woocommerce.woocommerce-page .related ul.products .product {
-	text-align: center
+	text-align: center;
 }
+/*Farukh CSS For Desktop*/
